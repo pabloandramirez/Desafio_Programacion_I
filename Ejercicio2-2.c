@@ -18,6 +18,7 @@ int main()
         cadenaInvertida[i] = cadena[(len - 1) - i];
     }
     
+    cadenaInvertida[len] = '\0';
 
     printf("La frase invertida es: %s\n", cadenaInvertida);    
 
